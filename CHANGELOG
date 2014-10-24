@@ -1,0 +1,9 @@
+0.0.1 (23 August 2013)
+	initial creation
+0.0.2 (25 August 2013)
+	add colorpicker for font color in generated image
+	add error message
+	add selector for min and max numbers in equation
+	add font size selector
+0.0.3 (14 December 2013)
+	add ability to specify additional input classes

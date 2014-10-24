@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="captcha" method="upgrade">
+	<name>Captcha - MathCaptcha</name>
+	<version>0.0.3</version>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <author>Black Brick Software LLC</author>
+    <authorEmail>david@blackbricksoftware.com</authorEmail>
+    <authorUrl>https://blackbricksoftware.com</authorUrl>
+    <copyright>Copyright © 2013-2013 Black Brick Software LLC. All rights reserved.</copyright>
+    <creationDate>25 August 2013</creationDate>
+	<description><![CDATA[<p>Math Captcha for Joomla 3.1.x. Created by <a href="http://blackbricksoftware.com/" target="_blank">Black Brick Software LLC</a>.</p>]]></description>
+	<files>
+		<filename>CHANGELOG</filename>
+		<folder>fonts</folder>
+		<filename>index.html</filename>
+		<filename>LICENSE.GPL</filename>
+		<filename plugin="mathcaptcha">mathcaptcha.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="additionalclasses" type="text" default="input-mini" label="Input Class(es)" />
+				<field name="min" type="integer" default="1" label="Minimum Number" first="0" last="1000" step="1" />
+				<field name="max" type="integer" default="10" label="Maximum Number" first="0" last="1000" step="1" />
+				<field name="fontsize" type="integer" default="14" label="Font Size (px)" first="1" last="100" step="1" />
+				<field name="textcolor" type="color" default="#000000" label="Font Color" />
+<!--
+				<field name="alpha" type="integer" default="127" label="Font Alpha" first="0" last="127" step="1" />
+-->
+			</fieldset>
+		</fields>
+	</config>
+</extension>
